@@ -41,7 +41,7 @@ Durante o desafio, cada integrante é responsável por desenvolver uma funcional
 | Patrick  | Implementar Subtração     | `feature/subtracao`     |
 | Plínio | Implementar Multiplicação | `feature/multiplicacao` |
 | Jader | Implementar Divisão       | `feature/divisao`       |
-| Revisor         | Revisão dos Pull Requests | `develop`               |
+| Gabriel | Revisão dos Pull Requests | `develop`               |
 
 > A funcionalidade **Média** será implementada como requisito surpresa durante o desafio.
 
