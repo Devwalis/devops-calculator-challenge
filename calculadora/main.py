@@ -1,5 +1,5 @@
-def somar(numero1, numero2):
-	return numero1 + numero2
+from operations.addition import somar
+
 
 
 while True:
