@@ -4,7 +4,7 @@ from operations.addition import somar
 
 while True:
 	print("-" * 30)
-	print("               CALCULADORA FAP"
+	print("               CALCULADORA FAP")
 	print("=" * 30)
 	print("1 - Soma")
 	print("0 - Sair")
@@ -16,7 +16,7 @@ while True:
 		numero1 = float(input("Digite o primeiro número: "))
 		numero2 = float(input("Digite o segundo  número: "))
 		
-		resultado = somar(numero, numero2)
+		resultado = somar(numero1, numero2)
 	
 		print(f"\nResultado: {resultado}")
 
@@ -27,7 +27,7 @@ while True:
 	else:
 		print("\nOpção inválida!")
 
-	continuar = input("\nDeseja realizar outra operação? (S/N):   ".upper()
+	continuar = input("\nDeseja realizar outra operação? (S/N):   ").upper()
 
 
 	if continuar != "S":
