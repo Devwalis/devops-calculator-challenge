@@ -6,7 +6,7 @@ while True:
     print("               CALCULADORA FAP")
     print("=" * 30)
     print("1 - Soma")
-    print("2 - Média")
+    print("5 - Média")
     print("0 - Sair")
 
     opcao = input("\nEscolha uma opção: ")
@@ -17,7 +17,7 @@ while True:
         resultado = somar(numero1, numero2)
         print(f"\nResultado: {resultado}")
 
-    elif opcao == "2":
+    elif opcao == "5":
         resultado = calcular_media()
         print(f"\n{resultado}")
 
