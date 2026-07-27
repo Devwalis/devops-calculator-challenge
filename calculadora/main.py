@@ -6,7 +6,7 @@ while True:
     print("               CALCULADORA FAP")
     print("=" * 30)
     print("1 - Soma")
-    print("2 - Multiplicação")
+    print("4 - Multiplicação")
     print("0 - Sair")
 
     opcao = input("\nEscolha uma opção: ")
@@ -17,7 +17,7 @@ while True:
         resultado = somar(numero1, numero2)
         print(f"\nResultado: {resultado}")
 
-    elif opcao == "2":
+    elif opcao == "4":
         numero1 = float(input("Digite o primeiro número: "))
         numero2 = float(input("Digite o segundo  número: "))
         resultado = multiplicar(numero1, numero2)
