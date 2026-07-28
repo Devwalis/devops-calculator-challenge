@@ -1,3 +1,2 @@
-def somar(n1, n2):
-	return n1 + n2
-
+def somar(a, b):
+    return a + b
