@@ -93,11 +93,11 @@ Execute o projeto conforme a linguagem utilizada pelo grupo.
 ## 📂 Estrutura do projeto
 
 ```text
-calculadora-basica/
-│
-├── src/
-├── README.md
-└── .gitignore
+calculadora/
+│ main.py
+├ README.md
+├ operations
+     ├──── /addtions.py
 ```
 
 ---
